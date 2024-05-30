@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 2px 3px rgb(226, 223, 223);
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+    background-color: transparent;
+    box-shadow: 0px 0px 2px 3px rgb(226, 223, 223);
+cursor: pointer;
+    border: none;
+    font-family: "Source Sans 3", sans-serif;
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(245, 241, 241);
+}
+
+.center {
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    height: 85%;
+    width: 95%;
+    /* background-color: red; */
+    color: black;
+    outline: none;
+    border: none;
+    box-shadow: 0px 0px 2px 3px rgb(226, 223, 223);
+    padding: 20px;
+    font-size: 16;
+    font-family: "Source Sans 3", sans-serif;
+}
