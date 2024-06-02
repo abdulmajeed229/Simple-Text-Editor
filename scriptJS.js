@@ -40,8 +40,32 @@ textItalic.addEventListener('click', function () {
 
 textColor.addEventListener('click', function () {
 
-    text.style.color = 'blue';
+    
+    var userColor = prompt('Enter Color Name').toLowerCase();
 
+    if (userColor === 'blue') {
+
+        text.style.color = 'blue';
+
+
+    } if (userColor === 'green') {
+
+        text.style.color = 'green';
+
+
+    } if (userColor === 'yellow') {
+
+        text.style.color = 'yellow';
+
+
+    } if (userColor === 'red') {
+
+        text.style.color = 'red';
+
+
+    } else {
+        alert('Color Not Available')
+    }
 });
 
 
