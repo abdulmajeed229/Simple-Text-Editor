@@ -41,7 +41,7 @@ textItalic.addEventListener('click', function () {
 textColor.addEventListener('click', function () {
 
     
-    var userColor = prompt('Enter Color Name').toLowerCase();
+    var userColor = prompt('Enter Color Name ! " Blue - Green - Yellow - Red " ').toLowerCase();
 
     if (userColor === 'blue') {
 
